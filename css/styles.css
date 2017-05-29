@@ -1,0 +1,173 @@
+body {
+  font-family: Lato;
+}
+h1, h2, h3 {
+  font-weight: normal;
+}
+.remark-code,
+.remark-inline-code {
+  font-family: PragmataPro, Menlo;
+  font-size: 36px;
+}
+.smaller-code .remark-code {
+  font-size: 28px;
+}
+.underscore {
+  font-size: 180%;
+}
+.underscore a {
+  text-decoration: none;
+}
+.underscore h1 {
+  text-align: center;
+}
+.title > h1 {
+  font-size: 200%;
+}
+.title > h2  {
+  margin-top: -5%;
+  font-size: 160%;
+}
+.title img {
+  margin-bottom: -20%;
+}
+ol {
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+  text-align: center;
+  list-style-type: none;
+}
+.smaller-quote blockquote {
+  font-size: 150%;
+}
+blockquote {
+  font-size: 200%;
+}
+.wide {
+  margin: 0;
+  padding: 0;
+}
+table {
+  font-weight: lighter;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2pt solid silver;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+td,th {
+  padding: .5em;
+  border: 1pt solid silver;
+  font-weight: normal;
+}
+th {
+  background-color: #3E505D;
+  color: white;
+}
+html.default-theme .underscore {
+  background: #fff;
+}
+html.default-theme .hero {
+  background-color: #2ca9df;
+  background-image: url(../img/hero-left-overlay-color.svg);
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html.default-theme .hero a {
+  color: #fff;
+}
+html.black-theme .underscore {
+  background: #000;
+  color: #fff;
+}
+html.black-theme .hero {
+  background: #000;
+  background-image: url(../img/hero-left-overlay-white.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html.black-theme .hero a {
+  color: #fff;
+}
+html.dark-blue-theme .underscore {
+  background: #0e2c3c;
+  color: #fff;
+}
+html.dark-blue-theme .hero {
+  background-image: url(../img/hero-left-overlay-white.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html.dark-blue-theme .hero a {
+  color: #fff;
+}
+.cantaloupe { color: rgb(255, 206, 110); }
+.honeydew   { color: rgb(206, 250, 110); }
+.spindrift  { color: rgb(104, 251, 208); }
+.sky        { color: rgb(106, 207, 255); }
+.lavender   { color: rgb(210, 120, 255); }
+.carnation  { color: rgb(255, 127, 211); }
+.licorice   { color: rgb(0, 0, 0); }
+.snow       { color: rgb(255, 255, 255); }
+.salmon     { color: rgb(255, 114, 110); }
+.banana     { color: rgb(255, 251, 109); }
+.flora      { color: rgb(104, 249, 110); }
+.ice        { color: rgb(104, 253, 255); }
+.orchid     { color: rgb(110, 118, 255); }
+.bubblegum  { color: rgb(255, 122, 255); }
+.lead       { color: rgb(30, 30, 30); }
+.mercury    { color: rgb(232, 232, 232); }
+.tangerine  { color: rgb(255, 136, 2); }
+.lime       { color: rgb(131, 249, 2); }
+.seamfoam   { color: rgb(3, 249, 135); }
+.aqua       { color: rgb(0, 140, 255); }
+.grape      { color: rgb(137, 49, 255); }
+.strawberry { color: rgb(255, 41, 135); }
+.tungsten   { color: rgb(58, 58, 58); }
+.silver     { color: rgb(208, 208, 208); }
+.maraschino { color: rgb(255, 33, 1); }
+.lemon      { color: rgb(255, 250, 3); }
+.spring     { color: rgb(5, 248, 2); }
+.turquoise  { color: rgb(0, 253, 255); }
+.blueberry  { color: rgb(0, 46, 255); }
+.magenta    { color: rgb(255, 57, 255); }
+.iron       { color: rgb(84, 84, 83); }
+.magnesium  { color: rgb(184, 184, 184); }
+.mocha      { color: rgb(137, 72, 0); }
+.fern       { color: rgb(69, 132, 1); }
+.moss       { color: rgb(1, 132, 72); }
+.ocean      { color: rgb(0, 74, 136); }
+.eggplant   { color: rgb(73, 26, 136); }
+.maroon     { color: rgb(137, 22, 72); }
+.steel      { color: rgb(110, 110, 110); }
+.aluminum   { color: rgb(160, 159, 160); }
+.cayenne    { color: rgb(137, 17, 0); }
+.aspargus   { color: rgb(136, 133, 1); }
+.clover     { color: rgb(2, 132, 1); }
+.teal       { color: rgb(0, 134, 136); }
+.midnight   { color: rgb(0, 24, 136); }
+.plum       { color: rgb(137, 30, 136); }
+.tin        { color: rgb(135, 134, 135); }
+.nickel     { color: rgb(136, 135, 135); }
+.banner {
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+html.black-theme .section h1 {
+    font-size: 88pt;
+    display: block;
+    vertical-align: middle;
+}
